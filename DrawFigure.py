@@ -1,3 +1,6 @@
+import cv2
+import numpy as np
+
 ask= input("ٌWich figurer do you want draw: ? (1:rectangle | 2:circle):  ")
 
 def draw(event,x,y,flags, param):
